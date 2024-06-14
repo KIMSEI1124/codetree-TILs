@@ -27,7 +27,7 @@ public class Main {
 
 	static void solve() {
 		int sleep = 1;
-		for (int time = 1; time <= 1_000_000 && !pq.isEmpty(); time++) {
+		for (int time = 1; time <= 1_000_000 * 100 && !pq.isEmpty(); time++) {
 			if (sleep > time) {
 				continue;
 			}
