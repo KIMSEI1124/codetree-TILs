@@ -23,7 +23,7 @@ public class Main {
             cards[i] = Integer.parseInt(st.nextToken());
         }
 
-        for (int i = 1; i <= 1; i++) {
+        for (int i = 1; i <= 3; i++) {
             int[] temp = cards.clone();
             for (int j = 1; j <= N; j++) {
                 temp[j] = cards[map.get(j)];
